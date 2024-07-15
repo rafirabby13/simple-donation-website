@@ -114,9 +114,46 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+   
     .donate-plan-cards{
         flex-wrap: wrap;
         text-align: center;
         gap: 10px;
       }
+      .lives img ,.lives-contents,
+      .survive img ,.survive-contents,
+      .my-updates,
+      .update-contents{
+        width: 100%;
+      }
+      .input-email{
+        width: 80%;
+      }
+      .lives ,.survive, .input,.donate-plan-cards{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+      .lives{
+        flex-direction: column-reverse;
+        
+      }
+      .banner-contents,
+      .our-donate-plan,
+      .lives,.survive {
+        width: 100%;
+      }
+      .donate-plan-cards {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .donate-today-cards {
+        flex-wrap: wrap;
+        /* align-items: center; */
+        gap: 1.1rem;
+      }
+     
+      .survive{
+        gap: 4rem;
+    }
 }
