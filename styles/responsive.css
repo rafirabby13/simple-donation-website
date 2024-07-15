@@ -120,11 +120,14 @@
         text-align: center;
         gap: 10px;
       }
-      .lives img ,.lives-contents,
-      .survive img ,.survive-contents,
+      
+      
       .my-updates,
       .update-contents{
         width: 100%;
+      }
+      .lives img ,.survive img,.lives-contents,.survive-contents {
+        width: 80%;
       }
       .input-email{
         width: 80%;
@@ -139,11 +142,11 @@
         
       }
       .banner-contents,
-      .our-donate-plan,
+      
       .lives,.survive {
         width: 100%;
       }
-      .donate-plan-cards {
+      .donate-plan-cards,.donate-plan-contents,.update-contents {
         width: 80%;
         margin: 0 auto;
       }
