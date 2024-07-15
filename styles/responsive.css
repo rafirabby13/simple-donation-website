@@ -83,7 +83,7 @@
   .input-email{
     width: 80%;
   }
-  .lives ,.survive, .input{
+  .lives ,.survive, .input,.donate-plan-cards{
     flex-direction: column;
     text-align: center;
     gap: 10px;
@@ -94,15 +94,14 @@
   }
   .banner-contents,
   .our-donate-plan,
-  .lives,.survive{
+  .lives,.survive {
     width: 100%;
   }
   .donate-plan-cards {
     width: 80%;
     margin: 0 auto;
   }
-  .donate-today-cards,
-  .donate-plan-cards {
+  .donate-today-cards {
     flex-wrap: wrap;
     /* align-items: center; */
     gap: 1.1rem;
@@ -112,4 +111,12 @@
     gap: 4rem;
 }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .donate-plan-cards{
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 10px;
+      }
 }
