@@ -1,50 +1,99 @@
 @media screen and (max-width: 360px) {
-    .banner-contents,
-    .donate-today,
-    .our-donate-plan 
-    {
-        width: 100%;
-      }
-     
-      .donate-today-cards, .donate-plan-cards {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.1rem;
-    
-    }
-   
-    
+  .banner-contents,
+  .donate-today,
+  .our-donate-plan,
+  .lives, .lives-contents, .lives img ,
+  .survive, .survive-contents, .survive img {
+    width: 100%;
+  }
+
+  .donate-today-cards,
+  .donate-plan-cards,
+  .lives, .survive {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+  }
+  .lives img, .survive img {
+    width: 100%;
+  }
+  .lives, .survive{
+    text-align: center;
+  }
+.lives{
+    flex-direction: column-reverse;
+}
+.survive{
+    gap: 4rem;
 }
 
-@media screen and (min-width: 360px) and (max-width: 425px){
-    .banner-contents, 
-    .our-donate-plan,
-    .donate-plan-cards {
-        width: 100%;
-      }
-      .donate-today-cards, .donate-plan-cards {
-        flex-wrap: wrap;
-        gap: 1.1rem;
-    
-    }
-    
 }
-@media screen and (min-width: 425px) and (max-width: 768px){
-    .banner-contents,
-    .our-donate-plan
-     {
-        width: 100%;
-      }
-      .donate-plan-cards{
-        width: 80%;
-        margin: 0 auto;
 
-      }
-      .donate-today-cards, .donate-plan-cards {
-        flex-wrap: wrap;
-        /* align-items: center; */
-        gap: 1.1rem;
+@media screen and (min-width: 360px) and (max-width: 425px) {
+  .lives img ,.lives-contents,
+  .survive img ,.survive-contents{
+    width: 100%;
+  }
+
+  .lives, .survive {
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .banner-contents,
+  .our-donate-plan,
+  .donate-plan-cards,
+  .lives ,
+  .survive{
+    width: 100%;
+  }
+  .donate-today-cards,
+  .donate-plan-cards {
+    flex-wrap: wrap;
+    gap: 1.1rem;
+  }
+  .lives{
+    flex-direction: column-reverse;
+}
+.survive{
+    gap: 4rem;
+}
+  
+
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .lives img ,.lives-contents,
+  .survive img ,.survive-contents{
+    width: 100%;
+  }
+
+  .lives ,.survive{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .lives{
+    flex-direction: column-reverse;
     
-    }
-    
+  }
+  .banner-contents,
+  .our-donate-plan,
+  .lives,.survive{
+    width: 100%;
+  }
+  .donate-plan-cards {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .donate-today-cards,
+  .donate-plan-cards {
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 1.1rem;
+  }
+ 
+  .survive{
+    gap: 4rem;
+}
+
 }

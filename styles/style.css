@@ -159,3 +159,29 @@ height: 352px; */
 .third{
     background: rgb(255, 244, 214);
 }
+
+          /* lives section */
+.lives, .survive{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    gap: 3rem;
+    align-items: center;
+
+}
+.lives-contents, .survive-contents{
+    width: 50%;
+    
+}
+.lives img{
+    width: 45%;
+    
+    border-radius: 5px;
+}
+.survive img{
+    width: 45%;
+    border-radius: 5px;
+}
+.survive{
+    gap: 7rem;
+}
