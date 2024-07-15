@@ -1,23 +1,28 @@
 @media screen and (max-width: 360px) {
     .banner-contents,
-    .donate-today {
+    .donate-today,
+    .our-donate-plan 
+    {
         width: 100%;
       }
      
-      .donate-today-cards {
+      .donate-today-cards, .donate-plan-cards {
         flex-direction: column;
         align-items: center;
         gap: 1.1rem;
     
     }
+   
     
 }
 
 @media screen and (min-width: 360px) and (max-width: 425px){
-    .banner-contents {
+    .banner-contents, 
+    .our-donate-plan,
+    .donate-plan-cards {
         width: 100%;
       }
-      .donate-today-cards {
+      .donate-today-cards, .donate-plan-cards {
         flex-wrap: wrap;
         gap: 1.1rem;
     
@@ -25,12 +30,19 @@
     
 }
 @media screen and (min-width: 425px) and (max-width: 768px){
-    .banner-contents {
+    .banner-contents,
+    .our-donate-plan
+     {
         width: 100%;
       }
-      .donate-today-cards {
+      .donate-plan-cards{
+        width: 80%;
+        margin: 0 auto;
+
+      }
+      .donate-today-cards, .donate-plan-cards {
         flex-wrap: wrap;
-        align-items: center;
+        /* align-items: center; */
         gap: 1.1rem;
     
     }
