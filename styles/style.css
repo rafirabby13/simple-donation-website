@@ -185,3 +185,29 @@ height: 352px; */
 .survive{
     gap: 7rem;
 }
+
+
+         /* my updates section */
+.my-updates{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.update-contents{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-email{
+    background: rgb(217, 217, 217);
+    border-radius: 5px 0px 0px 5px;
+    color: rgb(170, 159, 159);
+
+}
